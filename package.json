@@ -3,5 +3,30 @@
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1"
+  },
+  "name": "backengclothershop",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UIT19521334/BackEngClotherShop.git"
+  },
+  "keywords": [
+    "NDCDat",
+    "Backend"
+  ],
+  "author": "MtDat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UIT19521334/BackEngClotherShop/issues"
+  },
+  "homepage": "https://github.com/UIT19521334/BackEngClotherShop#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
