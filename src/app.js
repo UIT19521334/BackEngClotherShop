@@ -13,8 +13,14 @@ app.set('view engine', '.hbs');
 
 
 app.set('views', path.join(__dirname, '/resource/views'));
+app.get('/', function (req, res) {
+  res.render('home');
+});
 app.get('/news', function (req, res) {
   res.render('news');
+});
+app.get('/search', function (req, res) {
+  res.render('search');
 });
 
 app.listen(port, () => {
